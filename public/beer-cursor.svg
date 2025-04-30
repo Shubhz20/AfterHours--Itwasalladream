@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Beer Bottle -->
+  <path d="M12 0H20V4H12V0Z" fill="#2C1810"/>
+  <path d="M10 4H22V28C22 30 20 32 16 32C12 32 10 30 10 28V4Z" fill="#2C1810"/>
+  <path d="M12 6H20V26C20 27 18 28 16 28C14 28 12 27 12 26V6Z" fill="#FFD700"/>
+  <path d="M12 6H20V26C20 27 18 28 16 28C14 28 12 27 12 26V6Z" fill="#FFD700" opacity="0.5"/>
+  
+  <!-- Foam -->
+  <path d="M12 4H20V6C20 6 16 7 16 7C16 7 12 6 12 6V4Z" fill="white"/>
+  
+  <!-- Bottle Cap -->
+  <path d="M14 0H18V2H14V0Z" fill="#4A4A4A"/>
+  
+  <!-- Highlights -->
+  <path d="M12 4L14 6H18L20 4" fill="#3D2315"/>
+  <path d="M14 0L16 2H16L18 0" fill="#2C2C2C"/>
+</svg> 

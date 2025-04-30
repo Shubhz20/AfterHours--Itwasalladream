@@ -1,0 +1,79 @@
+.city-selector {
+  position: relative;
+  min-width: 180px;
+  z-index: 100;
+}
+
+.selected-city {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: var(--secondary-black);
+  border: 1px solid var(--primary-red);
+  color: var(--text-white);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.selected-city:hover {
+  box-shadow: 0 0 8px var(--primary-red);
+}
+
+.dropdown-arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--primary-red);
+  transition: transform 0.3s ease;
+}
+
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+
+.cities-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin-top: 5px;
+  background-color: var(--secondary-black);
+  border: 1px solid var(--primary-red);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  list-style: none;
+  padding: 0;
+  max-height: 250px;
+  overflow-y: auto;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cities-dropdown li {
+  padding: 10px 16px;
+  cursor: pointer;
+  color: var(--text-white);
+  transition: all 0.2s ease;
+}
+
+.cities-dropdown li:hover {
+  background-color: rgba(255, 0, 51, 0.2);
+}
+
+.cities-dropdown li.active {
+  background-color: rgba(255, 0, 51, 0.3);
+  color: var(--primary-red);
+}

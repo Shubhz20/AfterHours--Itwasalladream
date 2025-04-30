@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="200" viewBox="0 0 100 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bottle Body -->
+  <path d="M35 20H65V180C65 190 55 200 50 200C45 200 35 190 35 180V20Z" fill="#2C1810"/>
+  
+  <!-- Bottle Label Area -->
+  <rect x="35" y="40" width="30" height="80" fill="#8B0000"/>
+  
+  <!-- Old Monk Text -->
+  <text x="50" y="80" text-anchor="middle" fill="#FFD700" font-family="Arial" font-weight="bold" font-size="12">OLD MONK</text>
+  <text x="50" y="95" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="8">COFFEE</text>
+  
+  <!-- Bottle Cap -->
+  <path d="M40 10H60V20H40V10Z" fill="#4A4A4A"/>
+  
+  <!-- Bottle Highlights -->
+  <path d="M35 20L40 30H60L65 20" fill="#3D2315"/>
+  <path d="M40 10L45 20H55L60 10" fill="#2C2C2C"/>
+  
+  <!-- Glass Reflection -->
+  <path d="M45 50L50 60L55 50" fill="white" opacity="0.2"/>
+  <path d="M40 80L45 90L50 80" fill="white" opacity="0.15"/>
+  
+  <!-- Coffee Liquid Level -->
+  <path d="M35 40H65V120H35V40Z" fill="#4A2C2A" opacity="0.8"/>
+  
+  <!-- Bottle Rim -->
+  <path d="M35 20H65V25H35V20Z" fill="#3D2315"/>
+</svg> 
