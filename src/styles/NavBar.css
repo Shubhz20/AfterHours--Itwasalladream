@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: var(--header-height);
   z-index: 1000;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   background-color: rgba(10, 10, 10, 0.8);
@@ -18,9 +19,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   max-width: 1400px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .logo {

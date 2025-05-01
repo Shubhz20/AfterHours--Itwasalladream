@@ -1,5 +1,6 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -8,11 +9,23 @@ import HostParty from './pages/HostParty';
 import Concerts from './components/Concerts';
 import Tickets from './pages/Tickets';
 
+// ScrollToTop component to handle scroll behavior
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 function App() {
   return (
     <div className="app">
       <NavBar />
-      <main>
+      <ScrollToTop />
+      <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/parties" element={<AllParties />} />
