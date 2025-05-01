@@ -7,7 +7,7 @@ const PartiesList = () => {
     {
       id: 1,
       name: "Ballr",
-      image: "public/BALLR.jpeg",
+      image:"/BALLR.jpeg",
       location: "Kalyani Nagar",
       genre: "EDM & Bollywood",
       capacity: "500+",
@@ -17,7 +17,7 @@ const PartiesList = () => {
     {
       id: 2,
       name: "Escada",
-      image: "public/escada.jpeg",
+      image:"/escada.jpeg",
       location: "Koregaon Park",
       genre: "International & Bollywood",
       capacity: "400+",
@@ -27,7 +27,7 @@ const PartiesList = () => {
     {
       id: 3,
       name: "Mask",
-      image: "public/MASK .jpeg",
+      image:"/MASK.jpeg",
       location: "Viman Nagar",
       genre: "House & Techno",
       capacity: "300+",
@@ -37,7 +37,7 @@ const PartiesList = () => {
     {
       id: 4,
       name: "Miller",
-      image: "public/MILLERS.jpeg",
+      image:"/MILLERS.jpeg",
       location: "Koregaon Park",
       genre: "Live Music & Bollywood",
       capacity: "350+",
@@ -47,7 +47,7 @@ const PartiesList = () => {
     {
       id: 5,
       name: "Dioana",
-      image: "https://images.pexels.com/photos/1190301/pexels-photo-1190301.jpeg",
+      image:"https://images.pexels.com/photos/1190301/pexels-photo-1190301.jpeg",
       location: "Kalyani Nagar",
       genre: "EDM & Hip Hop",
       capacity: "450+",
@@ -57,7 +57,7 @@ const PartiesList = () => {
     {
       id: 6,
       name: "Toyroom",
-      image: "public/toyroom.jpeg",
+      image:"/toyroom.jpeg",
       location: "Koregaon Park",
       genre: "House & Techno",
       capacity: "400+",
@@ -67,7 +67,7 @@ const PartiesList = () => {
     {
       id: 7,
       name: "Elrow",
-      image: "public/elrow.jpeg",
+      image:"/elrow.jpeg",
       location: "Viman Nagar",
       genre: "International EDM",
       capacity: "600+",
@@ -77,7 +77,7 @@ const PartiesList = () => {
     {
       id: 8,
       name: "Plunge",
-      image: "public/plunge.jpeg",
+      image:"/plunge.jpeg",
       location: "Koregaon Park",
       genre: "EDM & Bollywood",
       capacity: "500+",
@@ -87,7 +87,7 @@ const PartiesList = () => {
     {
       id: 9,
       name: "Publiq",
-      image: "public/publiq.jpeg",
+      image:"/publiq.jpeg",
       location: "Kalyani Nagar",
       genre: "Live Music & Bollywood",
       capacity: "400+",
