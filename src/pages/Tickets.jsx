@@ -131,7 +131,6 @@ const Tickets = () => {
                 Event Name
               </label>
               {formErrors.eventName && <span className="error-message">{formErrors.eventName}</span>}
-              }
             </div>
             
             <div className="form-group">
@@ -148,7 +147,6 @@ const Tickets = () => {
                 Ticket Type
               </label>
               {formErrors.ticketType && <span className="error-message">{formErrors.ticketType}</span>}
-              }
             </div>
             
             <div className="form-row">
@@ -166,7 +164,6 @@ const Tickets = () => {
                   Price (₹)
                 </label>
                 {formErrors.price && <span className="error-message">{formErrors.price}</span>}
-                }
               </div>
               
               <div className="form-group">
@@ -183,7 +180,6 @@ const Tickets = () => {
                   Event Date
                 </label>
                 {formErrors.eventDate && <span className="error-message">{formErrors.eventDate}</span>}
-                }
               </div>
             </div>
             
@@ -201,7 +197,6 @@ const Tickets = () => {
                 Your Name
               </label>
               {formErrors.sellerName && <span className="error-message">{formErrors.sellerName}</span>}
-              }
             </div>
             
             <div className="form-group">
@@ -241,7 +236,14 @@ const Tickets = () => {
                 </div>
                 <div className="ticket-footer">
                   <span className="ticket-price">₹{ticket.price}</span>
-                  <button className="buy-button">Buy Now</button>
+                  <a 
+                    href="https://youtube.com/shorts/HDDCtBhuzgc?si=clkfIAsrFD7wrCDU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="buy-button"
+                  >
+                    Buy Now
+                  </a>
                 </div>
               </div>
             </div>

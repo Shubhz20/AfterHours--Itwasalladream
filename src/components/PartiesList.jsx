@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Music, Calendar, MapPin, Users, ExternalLink } from 'lucide-react';
+import { Music, Calendar, MapPin, Users, ExternalLink, Ticket, UserPlus } from 'lucide-react';
 
 const PartiesList = () => {
   const clubs = [
     {
       id: 1,
       name: "Ballr",
-      image: "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg",
+      image: "public/BALLR.jpeg",
       location: "Kalyani Nagar",
       genre: "EDM & Bollywood",
       capacity: "500+",
@@ -17,7 +17,7 @@ const PartiesList = () => {
     {
       id: 2,
       name: "Escada",
-      image: "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg",
+      image: "public/escada.jpeg",
       location: "Koregaon Park",
       genre: "International & Bollywood",
       capacity: "400+",
@@ -27,7 +27,7 @@ const PartiesList = () => {
     {
       id: 3,
       name: "Mask",
-      image: "https://images.pexels.com/photos/1190299/pexels-photo-1190299.jpeg",
+      image: "public/MASK .jpeg",
       location: "Viman Nagar",
       genre: "House & Techno",
       capacity: "300+",
@@ -37,7 +37,7 @@ const PartiesList = () => {
     {
       id: 4,
       name: "Miller",
-      image: "https://scontent-bom1-1.xx.fbcdn.net/v/t39.30808-6/300000000_1234567890_1234567890_n.jpg",
+      image: "public/MILLERS.jpeg",
       location: "Koregaon Park",
       genre: "Live Music & Bollywood",
       capacity: "350+",
@@ -57,7 +57,7 @@ const PartiesList = () => {
     {
       id: 6,
       name: "Toyroom",
-      image: "https://scontent-bom1-1.xx.fbcdn.net/v/t39.30808-6/300000000_2345678901_2345678901_n.jpg",
+      image: "public/toyroom.jpeg",
       location: "Koregaon Park",
       genre: "House & Techno",
       capacity: "400+",
@@ -67,7 +67,7 @@ const PartiesList = () => {
     {
       id: 7,
       name: "Elrow",
-      image: "https://scontent-bom1-1.xx.fbcdn.net/v/t39.30808-6/300000000_3456789012_3456789012_n.jpg",
+      image: "public/elrow.jpeg",
       location: "Viman Nagar",
       genre: "International EDM",
       capacity: "600+",
@@ -77,7 +77,7 @@ const PartiesList = () => {
     {
       id: 8,
       name: "Plunge",
-      image: "https://scontent-bom1-1.xx.fbcdn.net/v/t39.30808-6/300000000_4567890123_4567890123_n.jpg",
+      image: "public/plunge.jpeg",
       location: "Koregaon Park",
       genre: "EDM & Bollywood",
       capacity: "500+",
@@ -87,7 +87,7 @@ const PartiesList = () => {
     {
       id: 9,
       name: "Publiq",
-      image: "https://images.pexels.com/photos/1190305/pexels-photo-1190305.jpeg",
+      image: "public/publiq.jpeg",
       location: "Kalyani Nagar",
       genre: "Live Music & Bollywood",
       capacity: "400+",
@@ -114,14 +114,24 @@ const PartiesList = () => {
         <p><Users size={16} /> Capacity: {party.capacity}</p>
       </div>
       <p className="party-description">{party.description}</p>
-      <a 
-        href={party.website} 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        className="website-link"
-      >
-        <ExternalLink size={16} /> Know More
-      </a>
+      <div className="party-actions">
+        <a 
+          href={`https://wa.me/6377303438?text=Hey%20harshit%2C%20I%20wanna%20join%20guestlist%2C%20can%20i%20get%20more%20details%20about%20the%20parties`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ticket-button"
+        >
+          <Ticket size={16} /> Get Tickets
+        </a>
+        <a 
+          href={`https://wa.me/6377303438?text=Hey%20harshit%2C%20I%20wanna%20join%20guestlist%2C%20can%20i%20get%20more%20details%20about%20the%20parties`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="guestlist-button"
+        >
+          <UserPlus size={16} /> Join Guestlist
+        </a>
+      </div>
     </motion.div>
   );
 

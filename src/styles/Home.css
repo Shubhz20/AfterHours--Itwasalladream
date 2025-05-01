@@ -1002,3 +1002,47 @@
     height: 200px;
   }
 }
+
+.party-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.ticket-button, .guestlist-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.ticket-button {
+  background: linear-gradient(135deg, var(--primary-red) 0%, var(--neon-red) 100%);
+  color: white;
+  border: none;
+}
+
+.ticket-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 0, 51, 0.3);
+}
+
+.guestlist-button {
+  background: transparent;
+  color: var(--neon-blue);
+  border: 1px solid var(--neon-blue);
+}
+
+.guestlist-button:hover {
+  background: var(--neon-blue);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 102, 255, 0.3);
+}
