@@ -6,11 +6,25 @@ export default defineConfig({
   server: {
     port: 5173,
     open: true,
-    historyApiFallback: true
+    strictPort: true,
+    host: true,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+        secure: false
+      }
+    }
+  },
+  preview: {
+    port: 5173,
+    strictPort: true,
+    host: true
   },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    sourcemap: true,
     rollupOptions: {
       output: {
         manualChunks: undefined
