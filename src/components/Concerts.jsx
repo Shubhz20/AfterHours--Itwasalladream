@@ -7,7 +7,7 @@ const Concerts = () => {
     {
       id: 1,
       name: "Arijit Singh — One Night Only Tour",
-      image: "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepressjournal.in%2Fpune%2Farijit-singh-concert-in-pune-today-grab-the-last-few-available-ticketsshow-timing-and-venue-details&psig=AOvVaw0KQL_N70nDAbXAbDYs4hYq&ust=1746184426430000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiG9ImSgo0DFQAAAAAdAAAAABAJ",
       date: "March 15, 2024",
       time: "7:00 PM",
       location: "Mumbai",
@@ -203,9 +203,14 @@ const Concerts = () => {
                 <p><MapPin size={16} /> {concert.venue}, {concert.location}</p>
               </div>
               <p className="concert-description">{concert.description}</p>
-              <button className="ticket-button">
+              <a 
+                href="https://youtu.be/dQw4w9WgXcQ?si=QfJNmTD1rqYlP8tz" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="ticket-button"
+              >
                 <Ticket size={16} /> Get Tickets
-              </button>
+              </a>
             </div>
           </motion.div>
         ))}
