@@ -7,7 +7,7 @@ const Concerts = () => {
     {
       id: 1,
       name: "Arijit Singh — One Night Only Tour",
-      image: "public/arijitsingh.jpeg",
+      image: "/arijitsingh.jpeg",
       date: "March 15, 2024",
       time: "7:00 PM",
       location: "Mumbai",
@@ -18,7 +18,7 @@ const Concerts = () => {
     {
       id: 2,
       name: "Diljit Dosanjh — Born to Shine Tour",
-      image: "public/diljit.jpeg",
+      image: "/diljit.jpeg",
       date: "March 20, 2024",
       time: "8:00 PM",
       location: "Delhi",
@@ -29,7 +29,7 @@ const Concerts = () => {
     {
       id: 3,
       name: "Badshah — Paagal India Tour",
-      image: "public/badshah.jpeg",
+      image: "/badshah.jpeg",
       date: "March 25, 2024",
       time: "9:00 PM",
       location: "Bangalore",
@@ -40,7 +40,7 @@ const Concerts = () => {
     {
       id: 4,
       name: "Neha Kakkar — Live in Concert",
-      image: "public/neha.jpeg",
+      image: "/neha.jpeg",
       date: "April 5, 2024",
       time: "7:30 PM",
       location: "Hyderabad",
@@ -51,7 +51,7 @@ const Concerts = () => {
     {
       id: 5,
       name: "Shreya Ghoshal — India Musical Nights",
-      image: "public/shreya.jpeg",
+      image: "/shreya.jpeg",
       date: "April 10, 2024",
       time: "8:30 PM",
       location: "Chennai",
@@ -62,7 +62,7 @@ const Concerts = () => {
     {
       id: 6,
       name: "Sonu Nigam — The Sonu Experience",
-      image: "public/sonu.jpeg",
+      image: "/sonu.jpeg",
       date: "April 15, 2024",
       time: "7:00 PM",
       location: "Kolkata",
@@ -73,7 +73,7 @@ const Concerts = () => {
     {
       id: 7,
       name: "Darshan Raval — Love Aaj Kal Tour",
-      image: "public/darshan.jpeg",
+      image: "/darshan.jpeg",
       date: "April 20, 2024",
       time: "8:00 PM",
       location: "Ahmedabad",
@@ -84,7 +84,7 @@ const Concerts = () => {
     {
       id: 8,
       name: "Jubin Nautiyal — Live Mehfil India Tour",
-      image: "public/jubin.jpeg",
+      image: "/jubin.jpeg",
       date: "April 25, 2024",
       time: "7:30 PM",
       location: "Pune",
@@ -95,7 +95,7 @@ const Concerts = () => {
     {
       id: 9,
       name: "B Praak — Soulful Nights Tour",
-      image: "public/bpraak.jpeg",
+      image: "/bpraak.jpeg",
       date: "May 1, 2024",
       time: "8:30 PM",
       location: "Jaipur",
@@ -106,7 +106,7 @@ const Concerts = () => {
     {
       id: 10,
       name: "Amit Trivedi — Indie Vibes Tour",
-      image: "public/amit.jpeg",
+      image: "/amit.jpeg",
       date: "May 5, 2024",
       time: "7:00 PM",
       location: "Mumbai",
@@ -117,7 +117,7 @@ const Concerts = () => {
     {
       id: 11,
       name: "Travis Scott — Utopia India Experience",
-      image: "public/travis.jpeg",
+      image: "/travis.jpeg",
       date: "May 10, 2024",
       time: "9:00 PM",
       location: "Mumbai",
@@ -128,7 +128,7 @@ const Concerts = () => {
     {
       id: 12,
       name: "Alan Walker — Walkerverse India Tour",
-      image: "public/alan.jpeg",
+      image: "/alan.jpeg",
       date: "May 15, 2024",
       time: "8:00 PM",
       location: "Delhi",
@@ -139,7 +139,7 @@ const Concerts = () => {
     {
       id: 13,
       name: "DJ Snake — India Tour: Disco Diaries",
-      image: "public/snake.jpeg",
+      image: "/snake.jpeg",
       date: "May 20, 2024",
       time: "9:30 PM",
       location: "Bangalore",
@@ -150,7 +150,7 @@ const Concerts = () => {
     {
       id: 14,
       name: "AP Dhillon — Out of This World India Tour",
-      image: "public/ap.jpeg",
+      image: "/ap.jpeg",
       date: "May 25, 2024",
       time: "8:00 PM",
       location: "Punjab",
@@ -161,7 +161,7 @@ const Concerts = () => {
     {
       id: 15,
       name: "King — Champagne Talk India Tour",
-      image: "public/king.jpeg",
+      image: "/king.jpeg",
       date: "June 1, 2024",
       time: "7:30 PM",
       location: "Mumbai",
