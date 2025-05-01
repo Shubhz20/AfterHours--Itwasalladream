@@ -9,16 +9,12 @@ const BackgroundMusic = () => {
   useEffect(() => {
     const audio = audioRef.current;
     if (audio) {
-      // Set initial volume to 40%
       audio.volume = 0.4;
       
-      // Force play with user interaction
       const playAudio = async () => {
         try {
-          // Set muted first to allow autoplay
           audio.muted = true;
           await audio.play();
-          // Then unmute after playing starts
           audio.muted = false;
           setIsPlaying(true);
         } catch (error) {
@@ -26,10 +22,8 @@ const BackgroundMusic = () => {
         }
       };
 
-      // Try to play on any user interaction
       const handleUserInteraction = () => {
         playAudio();
-        // Remove event listeners after first interaction
         document.removeEventListener('click', handleUserInteraction);
         document.removeEventListener('touchstart', handleUserInteraction);
         document.removeEventListener('keydown', handleUserInteraction);
