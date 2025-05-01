@@ -54,9 +54,9 @@ const Home = () => {
           playsInline
           className="background-video"
         >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-nightlife-in-the-city-1080.mp4" type="video/mp4" />
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-nightclub-party-with-lights-and-dancing-people-1080.mp4" type="video/mp4" />
         </video>
-        <div className="video-overlay" />
+        <div className="video-overlay" style={{ filter: 'brightness(50%)' }} />
       </div>
 
       <div className="city-modal">
