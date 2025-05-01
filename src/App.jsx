@@ -8,6 +8,7 @@ import AllParties from './pages/AllParties';
 import HostParty from './pages/HostParty';
 import Concerts from './components/Concerts';
 import Tickets from './pages/Tickets';
+import BackgroundMusic from './components/BackgroundMusic';
 
 // ScrollToTop component to handle scroll behavior
 const ScrollToTop = () => {
@@ -35,6 +36,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <BackgroundMusic />
     </div>
   );
 }

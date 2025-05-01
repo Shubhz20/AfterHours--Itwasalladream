@@ -1049,3 +1049,44 @@
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 102, 255, 0.3);
 }
+
+/* Background Music Styles */
+.background-music {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.music-controls {
+  display: flex;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 0, 51, 0.3);
+  box-shadow: 0 0 20px rgba(255, 0, 51, 0.2);
+}
+
+.music-button {
+  background: transparent;
+  border: none;
+  color: var(--text-white);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.music-button:hover {
+  background: rgba(255, 0, 51, 0.2);
+  transform: scale(1.1);
+}
+
+.music-button:active {
+  transform: scale(0.95);
+}
