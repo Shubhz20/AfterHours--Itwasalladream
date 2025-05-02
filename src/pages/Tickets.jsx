@@ -237,7 +237,7 @@ const Tickets = () => {
                 <div className="ticket-footer">
                   <span className="ticket-price">₹{ticket.price}</span>
                   <a 
-                    href="https://youtube.com/shorts/HDDCtBhuzgc?si=clkfIAsrFD7wrCDU"
+                    // href="https://youtube.com/shorts/HDDCtBhuzgc?si=clkfIAsrFD7wrCDU"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="buy-button"
