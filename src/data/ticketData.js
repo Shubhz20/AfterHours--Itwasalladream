@@ -5,7 +5,7 @@ export const ticketData = [
     ticketType: "Premium Stand",
     price: 5000,
     eventDate: "April 15, 2025",
-    seller: "Rahul S.",
+    seller: "Harshit Agrawal",
     image: "https://images.pexels.com/photos/3140200/pexels-photo-3140200.jpeg"
   },
   {
@@ -14,7 +14,7 @@ export const ticketData = [
     ticketType: "VIP Access",
     price: 8000,
     eventDate: "December 28, 2025",
-    seller: "Priya M.",
+    seller: "Harshit Agrawal",
     image: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg"
   },
   {
@@ -23,7 +23,7 @@ export const ticketData = [
     ticketType: "Golden Circle",
     price: 12000,
     eventDate: "March 10, 2025",
-    seller: "Vikram J.",
+    seller: "Harshit Agrawal",
     image: "https://images.pexels.com/photos/1047442/pexels-photo-1047442.jpeg"
   },
   {
@@ -32,7 +32,7 @@ export const ticketData = [
     ticketType: "Day 1 Pass",
     price: 2500,
     eventDate: "January 15, 2025",
-    seller: "Aisha K.",
+    seller: "Harshit Agrawal",
     image: "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg"
   },
   {
@@ -41,7 +41,7 @@ export const ticketData = [
     ticketType: "Corporate Box",
     price: 15000,
     eventDate: "May 2, 2025",
-    seller: "Samarth P.",
+    seller: "Harshit Agrawal",
     image: "https://images.pexels.com/photos/3140200/pexels-photo-3140200.jpeg"
   },
   {
@@ -50,7 +50,7 @@ export const ticketData = [
     ticketType: "Weekend Pass",
     price: 4500,
     eventDate: "November 25, 2025",
-    seller: "Natasha R.",
+    seller: "Harshit Agrawal",
     image: "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg"
   },
   {
@@ -59,7 +59,7 @@ export const ticketData = [
     ticketType: "Front Row",
     price: 20000,
     eventDate: "September 5, 2025",
-    seller: "Karan S.",
+    seller: "Harshit Agrawal",
     image: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg"
   },
   {
@@ -68,7 +68,7 @@ export const ticketData = [
     ticketType: "Magical Friday Pass",
     price: 18000,
     eventDate: "July 25, 2025",
-    seller: "Ananya D.",
+    seller: "Harshit Agrawal",
     image: "https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg"
   }
 ];
